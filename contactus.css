@@ -1,0 +1,869 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,input,textarea{
+    font-family: 'Open Sans', sans-serif;
+}
+.top1{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    display: inline;
+  }
+  li a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: gray;
+  }
+  
+  li a:hover {
+    opacity: 0.3;
+    transition: 1s;
+
+  }
+  .icon{
+    display: none;
+}
+#wood1{
+    width: 400px;
+    padding-right: 100px;
+}
+
+.mid{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.678)), url("https://woodlawnservices.com/wp-content/uploads/2018/04/contact-for-lawn-service.jpg");
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+#contact1{
+    padding-top: 50vh;
+    font-size: 100px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+    font-weight: lighter;
+}
+.grid1{
+    display: grid;
+    grid-template-columns:2fr 2fr 2fr ;
+    height: 50vh;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.grid1-flex{
+    margin-top: 50px;
+}
+img.abc{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    top: 55px;
+    cursor: text;
+    right: 70px;
+}
+#ab{
+    height: 50px;
+    width: 50px;
+}
+
+.combo{
+    font-size: 20px;
+    font-style: oblique;
+    position: relative;
+    top: 45px;
+    margin-left: -70px;
+    font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+    color: #333;
+    
+}
+
+a.linking{
+    margin-left: 5%;
+    text-decoration: none;
+    color: #0c71c3;
+    font-size: 18px;
+    position: relative;
+    top: 35px;
+    vertical-align: baseline;
+    cursor: pointer;
+}
+#mail{
+    margin-left: 35%;
+    font-size: 20px;
+}
+.flex-container{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+}
+.forming{
+    margin-left: 4%;
+    margin-top: -30px;
+    width: 50%;
+}
+.map{
+    margin-left: 2%;
+}
+.mainform{
+    margin-top: 30px;
+}
+#head1{
+    font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+    color: #333;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1em;
+    text-align: center;
+    margin-right: 8%;
+}
+.form1{
+    width: 275px;
+    height: 40px;
+    border: none;
+    background-color: rgba(216, 212, 212, 0.363);
+}
+#add{
+    width: 558px;
+    height: 40px;
+    margin-top: 4%;
+    background-color:rgba(216,212,212,0.363);
+    border: none;
+}
+#msg{
+    width: 558px;
+    margin-top: 4%;
+    background-color: rgba(216, 212, 212,0.363);
+    border: none;
+}
+::placeholder{
+    font-size: 17px;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+}
+#num{
+    height: 45px;
+    width: 45px;
+    background-color: rgba(216, 212, 212,0.363);
+    border: none;
+    border-radius: 3px;
+}
+#numlabel{
+    margin-left: 53%;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 13px;
+}
+.result{
+    margin-top: 2%;
+}
+#sub{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 20px;
+    background-color: rgba(0, 128, 0, 0.87);
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.angle{
+    display: none;
+}
+button:hover span{
+    display: inline;
+}
+#sub:hover{
+    transition: 3s;
+    background-color: rgba(0, 128, 0, 0.349);
+    
+}
+.foot{
+    margin-top: 70px;
+    background-color: rgb(31, 31, 31);
+    font-size: 15px;
+}
+.foot1{
+    display: flex;
+    height: 240px;
+}
+.footx{
+    width: 25%;
+    color: white;
+    margin-top: 20px;
+    margin-left: 95px;
+}
+.footy{
+    width: 25%;
+    color: white;
+    margin-top: 20px;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.footz{
+    width: 25%;
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+.head3{
+    color: rgba(0, 128, 0, 0.897);
+    font-family: 'Della Respira', serif;
+    margin-bottom: 5px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+#paray{
+    margin-top: 2vh;
+}
+.small{
+    font-size: 15px;
+}
+a.quick{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+a.linkingx{
+    text-decoration: none;
+    color: #2ea3f2;
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+    padding-left: -10px;
+
+}
+.fbx{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    border: none;
+    border-radius: 50%;
+}
+#instax{
+    margin-left: -30px;
+    border: none;
+    border-radius: 50%;
+}
+.foot2{
+    background-color: rgb(14, 14, 14);
+    height: 50px;
+}
+#copyright{
+    font-weight: lighter;
+    color: white;
+    margin-left: 90px;
+    position: relative;
+    top: 15px;
+}
+
+
+@media only screen and (max-width:1160px){
+    li a {
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        color: gray;
+      }
+      #wood1{
+        width: 250px;
+        height: 10vh;
+    }
+    .grid1{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        height: 25vh;
+        background-color: whitesmoke;
+        text-align: center;
+        margin-top: 3vh;
+    }
+    .grid1-flex{
+        margin-top: 3vh;
+    }
+    img.abc{
+        height: 30px;
+        width: 30px;
+        position: relative;
+        top: 50px;
+        right: 3%;
+        cursor: text;
+    }
+    .combo{
+        font-size: 20px;
+        font-style: oblique;
+        position: relative;
+        top: 45px;
+        font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+        color: #333;
+        margin-left: 1%;
+    }
+    a.linking{
+        margin-left: 15%;
+        text-decoration: none;
+        color: #0c71c3;
+        font-size: 18px;
+        position: relative;
+        top: 40px;
+        vertical-align: baseline;
+        cursor: pointer;
+    }
+    #mail{
+        margin-left: 30%;
+        font-size: 18px;
+    }
+
+    .flex-container{
+        display: flex;
+        margin-top: 75px;
+        width: 100%;
+    }
+    #gmap{
+        border: none;
+        height: 60vh;
+        width: 60%;
+        cursor:-moz-grabbing;
+        cursor: pointer;
+        cursor: grabbing;
+        margin-left: 10%;
+    }
+    .forming{
+        margin-left: 8%;
+        width: 50%;
+    }
+    .mainform{
+        margin-top: 30px;
+    }
+    #head1{
+        font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+        color: #333;
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 1em;
+    }
+    .form1{
+        width: 275px;
+        height: 40px;
+        border: none;
+        background-color: rgb(216, 212, 212);
+    }
+    #add{
+        width: 558px;
+        height: 40px;
+        margin-top: 4%;
+        background-color:rgb(216, 212, 212);
+        border: none;
+    }
+    #msg{
+        width: 558px;
+        margin-top: 4%;
+        background-color: rgb(216, 212, 212);
+        border: none;
+    }
+    ::placeholder{
+        font-size: 15px;
+    }
+    #num{
+        height: 45px;
+        width: 45px;
+        background-color: rgb(216, 212, 212);
+        border: none;
+        border-radius: 3px;
+    }
+    #numlabel{
+        margin-left: 53%;
+        font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+        font-size: 13px;
+    }
+    .result{
+        margin-top: 2%;
+    }
+    #sub{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        padding-right: 20px;
+        background-color: rgba(0, 128, 0, 0.87);
+        border: none;
+        font-weight: bold;
+        font-size: 17px;
+        color: white;
+        border-radius: 5px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+    li a {
+        padding: 12px 14px;
+        font-size: 12px;
+        font-weight: bold;
+        color: gray;
+      }
+      #wood1{
+        width: 200px;
+        height: 10vh;
+    }
+    .top1{
+        height: 10vh;
+    }
+    .grid1{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        height: 30vh;
+        background-color: whitesmoke;
+        text-align: center;
+        margin-top: 3vh;
+    }
+    .grid1-flex{
+        margin-top: 3vh;
+    }
+    img.abc{
+        height: 25px;
+        width: 25px;
+        position: relative;
+        top: 50px;
+        
+        left: 2%;
+        cursor: text;
+    }
+    .combo{
+        font-size: 15px;
+        font-style: oblique;
+        position: relative;
+        top: 45px;
+        font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+        color: #333;
+        margin-left: 1%;
+    }
+    #up{
+        margin-top: -15px;
+    }
+    a.linking{
+        margin-left: 15%;
+        text-decoration: none;
+        color: #0c71c3;
+        font-size: 15px;
+        position: relative;
+        top: 40px;
+    }
+    #mail{
+        margin-left: 25%;
+        font-size: 15px;
+    }
+    .flex-container{
+        display: block;
+        margin-top: 10vh;
+        width: 100%;
+    }
+    #gmap{
+        border: none;
+        height: 60vh;
+        width: 75%;
+        cursor:-moz-grabbing;
+        cursor: pointer;
+        cursor: grabbing;
+        margin-left: 12%;
+    }
+    .forming{
+        margin-left: 33%;
+        margin-top: 5vh;
+        width: 75%;
+    }
+    .mainform{
+        margin-top: 30px;
+    }
+    #head1{
+        font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+        color: #333;
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 1em;
+    }
+    .form1{
+        width: 40%;
+        height: 40px;
+        border: none;
+        background-color: rgb(216, 212, 212);
+    }
+    #add{
+        width: 81%;
+        height: 40px;
+        margin-top: 4%;
+        background-color:rgb(216, 212, 212);
+        border: none;
+    }
+    #msg{
+        width: 81%;
+        margin-top: 3vh;
+        background-color: rgb(216, 212, 212);
+        border: none;
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+    #num{
+        height: 45px;
+        width: 45px;
+        background-color: rgb(216, 212, 212);
+        border: none;
+        border-radius: 3px;
+    }
+    #numlabel{
+        margin-left: 50%;
+        font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+        font-size: 13px;
+    }
+    #sub{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .foot{
+        background-color: rgb(31, 31, 31);
+        width: 100%;
+    }
+    .foot1{
+        display: flex;
+        height: 40vh;
+    }
+    .footx{
+        width: 32%;
+        color: white;
+        margin-top: 20px;
+        margin-left: 3%;
+    }
+    .footy{
+        width: 30%;
+        color: white;
+        margin-top: 20px;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footz{
+        width: 32%;
+        color: white;
+        margin-top: 20px;
+        margin-right: 10%;
+    }
+    .head3{
+        color: green;
+        font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+        margin-bottom: 5px;
+        font-weight: lighter;
+        font-size: 18px;
+    }
+    .small{
+        font-size: 13px;
+    }
+    #paray{
+        font-size: 13px;
+    }
+    a.quick{
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    a.linkingx{
+        text-decoration: none;
+        color: #2ea3f2;
+        font-weight: bolder;
+        position: relative;
+        top: 20px;
+    }
+    .foot2{
+        background-color: rgb(14, 14, 14);
+        height: 8vh;
+    }
+    #copyright{
+        font-weight: lighter;
+        color: white;
+        margin-left: 7%;
+        position: relative;
+        top: 15px;
+        font-size: 13px;
+    }
+
+}
+
+
+@media only screen and (max-width:600px) {
+    *{
+        margin: o;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .top1{
+        height: 10vh;
+        display: block;
+    }
+    li a{
+        padding:10px;
+    }
+    #wood1{
+        width: 230px;
+        margin-left: 35%;
+    }
+    .mid{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.678)), url("https://woodlawnservices.com/wp-content/uploads/2018/04/contact-for-lawn-service.jpg");
+        height: 60vh;
+        width: 100%;
+        text-align: center;
+    }
+    #contact1{
+        padding-top: 30vh;
+        font-size: 80px;
+        color: white;
+        font-weight: bolder;
+        font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+        font-weight: lighter;
+    }
+    .grid1{
+        display: block;
+        height: 40vh;
+        background-color: whitesmoke;
+        text-align: center;
+    }
+    .grid1-flex{
+        margin-top: 5vh;
+    }
+    img.abc{
+        height: 30px;
+        width: 30px;
+        position: relative;
+        top: 55px;
+        cursor: text;
+    }
+
+    .combo{
+        font-size: 15px;
+        font-style: oblique;
+        position: relative;
+        top: 45px;
+        font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+        color: #333;
+        margin-left: 1%;
+        
+    }
+    
+    a.linking{
+        margin-left: 15%;
+        text-decoration: none;
+        color: #0c71c3;
+        font-size: 15px;
+        position: relative;
+        top: 40px;
+        vertical-align: baseline;
+        cursor: pointer;
+    }
+    #mail{
+        margin-left: 30%;
+        font-size: 15px;
+    }
+    .flex-container{
+        display: block;
+        margin-top: 10vh;
+        width: 100%;
+    }
+    #gmap{
+        border: none;
+        height: 50vh;
+        width: 75%;
+        cursor:-moz-grabbing;
+        cursor: pointer;
+        cursor: grabbing;
+        margin-left: 12%;
+    }
+    .forming{
+        margin-left: 18%;
+        margin-top: 5vh;
+        width: 75%;
+    }
+    .mainform{
+        margin-top: 30px;
+    }
+    #head1{
+        font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+        color: #333;
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 1em;
+    }
+    .form1{
+        width: 40%;
+        height: 40px;
+        border: none;
+    }
+    #add{
+        width: 81%;
+        height: 40px;
+        margin-top: 4%;
+        border: none;
+    }
+    #msg{
+        width: 81%;
+        margin-top: 3vh;
+        border: none;
+    }
+    ::placeholder{
+        font-size: 15px;
+    }
+    #num{
+        height: 35px;
+        width: 35px;
+        border: none;
+        border-radius: 3px;
+    }
+    #numlabel{
+        margin-left: 38%;
+        font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+        font-size: 13px;
+    }
+    #sub{
+        padding: 5px;
+        font-size: 18px;
+    }
+    .foot{
+        background-color: rgb(31, 31, 31);
+        width: 100%;
+    }
+    .foot1{
+        display: flex;
+        height: 30vh;
+    }
+    .footx{
+        width: 30%;
+        color: white;
+        margin-top: 20px;
+        margin-left: 3%;
+    }
+    .footy{
+        width: 30%;
+        color: white;
+        margin-top: 20px;
+        margin-left: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footz{
+        width: 30%;
+        color: white;
+        margin-top: 20px;
+        margin-left: 0%;
+        margin-right: 5%;
+        
+    }
+    .head3{
+        color: green;
+        font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+        margin-bottom: 5px;
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    .small{
+        font-size: 12px;
+    }
+    #paray{
+        font-size: 12px;
+    }
+    a.quick{
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    a.linkingx{
+        text-decoration: none;
+        color: #2ea3f2;
+        font-weight: bolder;
+        position: relative;
+        top: 20px;
+    }
+    .foot2{
+        background-color: rgb(14, 14, 14);
+        height: 8vh;
+    }
+    #copyright{
+        font-weight: lighter;
+        color: white;
+        margin-left: 7%;
+        position: relative;
+        top: 15px;
+        font-size: 13px;
+    }
+}
+
+
+
+    @media only screen and (max-width: 600px) {
+        .headm a {
+            display: none;
+        }
+        .headm a.icon {
+            color: rgb(87, 87, 251);
+          align-items:center;
+          display: block;
+          font-size: 30px;
+          margin-left: 46%;
+        }
+        .top1{
+            height: 20vh;
+        }
+
+      }
+      
+      @media only screen and (max-width: 600px) {
+        .headm.responsive {position: relative;}
+        .headm.responsive .icon {
+          position: absolute;
+          left: 50px;
+          top:-5px;
+         
+        }
+        .headm.responsive a {
+          float: none;
+          display: block;
+          text-align: center;
+          transition:1s;
+        }
+      }
